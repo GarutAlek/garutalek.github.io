@@ -10,9 +10,17 @@
   <url>
     <loc>https://example.com/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://example.com/post/presentation/</loc><lastmod>2022-05-20T23:20:22+03:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://example.com/post/</loc><lastmod>2022-05-28T13:05:31+03:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://example.com/post/</loc><lastmod>2022-05-20T23:20:22+03:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://example.com/post/python/</loc><lastmod>2022-05-28T13:05:31+03:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/post/last-week/</loc><lastmod>2022-05-28T13:01:53+03:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/project/my-project/</loc><lastmod>2022-05-28T12:59:54+03:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/project/</loc><lastmod>2022-05-28T12:59:54+03:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/post/presentation/</loc><lastmod>2022-05-20T23:20:22+03:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/post/week/</loc><lastmod>2022-05-20T23:17:30+03:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -21,8 +29,6 @@
     <loc>https://example.com/post/last_week/</loc><lastmod>2022-05-14T14:22:11+03:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/post/git/</loc><lastmod>2022-05-06T18:48:37+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/post/last-week/</loc><lastmod>2022-05-06T18:21:22+03:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -51,8 +57,6 @@
     <loc>https://example.com/tag/deep-learning/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/project/example/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/project/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/publication-type/1/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>

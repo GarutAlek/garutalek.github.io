@@ -5,12 +5,133 @@
     <link>https://example.com/post/</link>
       <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 May 2022 23:20:22 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 28 May 2022 13:05:31 +0300</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://example.com/post/</link>
     </image>
+    
+    <item>
+      <title>Python</title>
+      <link>https://example.com/post/python/</link>
+      <pubDate>Sat, 28 May 2022 13:05:31 +0300</pubDate>
+      <guid>https://example.com/post/python/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Python_logo&#34; srcset=&#34;
+               /post/python/python-logo_hu267aa9799be385c9028f3c2885a6e8cd_52166_9c96f40a75889214d12ee61d9b75b0a2.webp 400w,
+               /post/python/python-logo_hu267aa9799be385c9028f3c2885a6e8cd_52166_0aef25628f66a1d5cfdc9b7657dae6ab.webp 760w,
+               /post/python/python-logo_hu267aa9799be385c9028f3c2885a6e8cd_52166_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/post/python/python-logo_hu267aa9799be385c9028f3c2885a6e8cd_52166_9c96f40a75889214d12ee61d9b75b0a2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;python&#34;&gt;Python&lt;/h1&gt;
+&lt;h2 id=&#34;base-information&#34;&gt;Base information&lt;/h2&gt;
+&lt;p&gt;Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.&lt;/p&gt;
+&lt;p&gt;Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a &amp;ldquo;batteries included&amp;rdquo; language due to its comprehensive standard library.&lt;/p&gt;
+&lt;p&gt;Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000 and introduced new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support. Python 3.0, released in 2008, was a major revision that is not completely backward-compatible with earlier versions. Python 2 was discontinued with version 2.7.18 in 2020.&lt;/p&gt;
+&lt;h2 id=&#34;history&#34;&gt;History&lt;/h2&gt;
+&lt;p&gt;Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde &amp;amp; Informatica (CWI) in the Netherlands as a successor to the ABC programming language, which was inspired by SETL, capable of exception handling and interfacing with the Amoeba operating system. Its implementation began in December 1989. Van Rossum shouldered sole responsibility for the project, as the lead developer, until 12 July 2018, when he announced his &amp;ldquo;permanent vacation&amp;rdquo; from his responsibilities as Python&amp;rsquo;s &amp;ldquo;benevolent dictator for life&amp;rdquo;, a title the Python community bestowed upon him to reflect his long-term commitment as the project&amp;rsquo;s chief decision-maker. In January 2019, active Python core developers elected a five-member Steering Council to lead the project.&lt;/p&gt;
+&lt;p&gt;Python 2.0 was released on 16 October 2000, with many major new features. Python 3.0, released on 3 December 2008, with many of its major features backported to Python 2.6.x and 2.7.x. Releases of Python 3 include the 2to3 utility, which automates the translation of Python 2 code to Python 3.&lt;/p&gt;
+&lt;p&gt;Python 2.7&amp;rsquo;s end-of-life was initially set for 2015, then postponed to 2020 out of concern that a large body of existing code could not easily be forward-ported to Python 3. No further security patches or other improvements will be released for it. With Python 2&amp;rsquo;s end-of-life, only Python 3.6.x and later were supported. Later, support for 3.6 was also discontinued. In 2021, Python 3.9.2 and 3.8.8 were expedited as all versions of Python (including 2.7) had security issues leading to possible remote code execution and web cache poisoning.&lt;/p&gt;
+&lt;p&gt;In 2022, Python 3.10.4 and 3.9.12 were expedited and so were older releases including 3.8.13, and 3.7.13 because of many security issues in 2022. Python 3.9.13 is the latest 3.9 version, and from now on 3.9 (and older; 3.8 and 3.7) will only get security updates.&lt;/p&gt;
+&lt;h2 id=&#34;syntax-and-semantics&#34;&gt;Syntax and semantics&lt;/h2&gt;
+&lt;p&gt;Main article: Python syntax and semantics
+Python is meant to be an easily readable language. Its formatting is visually uncluttered and often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are allowed but rarely used. It has fewer syntactic exceptions and special cases than C or Pascal.&lt;/p&gt;
+&lt;h3 id=&#34;indentation&#34;&gt;Indentation&lt;/h3&gt;
+&lt;p&gt;Main article: Python syntax and semantics § Indentation
+Python uses whitespace indentation, rather than curly brackets or keywords, to delimit blocks. An increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block.[81] Thus, the program&amp;rsquo;s visual structure accurately represents its semantic structure. This feature is sometimes termed the off-side rule. Some other languages use indentation this way; but in most, indentation has no semantic meaning. The recommended indent size is four spaces.&lt;/p&gt;
+&lt;h3 id=&#34;statements-and-control-flow&#34;&gt;Statements and control flow&lt;/h3&gt;
+&lt;p&gt;Python&amp;rsquo;s statements include:&lt;/p&gt;
+&lt;p&gt;The assignment statement, using a single equals sign =
+The if statement, which conditionally executes a block of code, along with else and elif (a contraction of else-if)
+The for statement, which iterates over an iterable object, capturing each element to a local variable for use by the attached block
+The while statement, which executes a block of code as long as its condition is true
+The try statement, which allows exceptions raised in its attached code block to be caught and handled by except clauses (or new syntax except* in Python 3.11 for exception groups); it also ensures that clean-up code in a finally block is always run regardless of how the block exits
+The raise statement, used to raise a specified exception or re-raise a caught exception
+The class statement, which executes a block of code and attaches its local namespace to a class, for use in object-oriented programming
+The def statement, which defines a function or method
+The with statement, which encloses a code block within a context manager (for example, acquiring a lock before it is run, then releasing the lock; or opening and closing a file), allowing resource-acquisition-is-initialization (RAII)-like behavior and replacing a common try/finally idiom
+The break statement, which exits a loop
+The continue statement, which skips the current iteration and continues with the next
+The del statement, which removes a variable—deleting the reference from the name to the value, and producing an error if the variable is referred to before it is redefined
+The pass statement, serving as a NOP, syntactically needed to create an empty code block
+The assert statement, used in debugging to check for conditions that should apply
+The yield statement, which returns a value from a generator function (and also an operator); used to implement coroutines
+The return statement, used to return a value from a function
+The import statement, used to import modules whose functions or variables can be used in the current program
+The assignment statement (=) binds a name as a reference to a separate, dynamically-allocated object. Variables may subsequently be rebound at any time to any object. In Python, a variable name is a generic reference holder without a fixed data type; however, it always refers to some object with a type. This is called dynamic typing—in contrast to statically-typed languages, where each variable may contain only a value of a certain type.&lt;/p&gt;
+&lt;p&gt;Python does not support tail call optimization or first-class continuations, and, according to van Rossum, it never will. However, better support for coroutine-like functionality is provided by extending Python&amp;rsquo;s generators. Before 2.5, generators were lazy iterators; data was passed unidirectionally out of the generator. From Python 2.5 on, it is possible to pass data back into a generator function; and from version 3.3, it can be passed through multiple stack levels.&lt;/p&gt;
+&lt;h3 id=&#34;expressions&#34;&gt;Expressions&lt;/h3&gt;
+&lt;p&gt;Some Python expressions are similar to those in languages such as C and Java, while some are not:&lt;/p&gt;
+&lt;p&gt;Addition, subtraction, and multiplication are the same, but the behavior of division differs. There are two types of divisions in Python: floor division (or integer division) // and floating-point/division. Python also uses the ** operator for exponentiation.
+The @ infix operator. It is intended to be used by libraries such as NumPy for matrix multiplication.
+The syntax :=, called the &amp;ldquo;walrus operator&amp;rdquo;, was introduced in Python 3.8. It assigns values to variables as part of a larger expression.
+In Python, == compares by value, versus Java, which compares numerics by value and objects by reference. Python&amp;rsquo;s is operator may be used to compare object identities (comparison by reference), and comparisons may be chained—for example, a &amp;lt;= b &amp;lt;= c.
+Python uses and, or, and not as boolean operators rather than the symbolic &amp;amp;&amp;amp;, ||, ! in Java and C.
+Python has a type of expression called a list comprehension, as well as a more general expression called a generator expression.
+Anonymous functions are implemented using lambda expressions; however, there may be only one expression in each body.
+Conditional expressions are written as x if c else y (different in order of operands from the c ? x : y operator common to many other languages).
+Python makes a distinction between lists and tuples. Lists are written as [1, 2, 3], are mutable, and cannot be used as the keys of dictionaries (dictionary keys must be immutable in Python). Tuples, written as (1, 2, 3), are immutable and thus can be used as keys of dictionaries, provided all of the tuple&amp;rsquo;s elements are immutable. The + operator can be used to concatenate two tuples, which does not directly modify their contents, but produces a new tuple containing the elements of both. Thus, given the variable t initially equal to (1, 2, 3), executing t = t + (4, 5) first evaluates t + (4, 5), which yields (1, 2, 3, 4, 5), which is then assigned back to t—thereby effectively &amp;ldquo;modifying the contents&amp;rdquo; of t while conforming to the immutable nature of tuple objects. Parentheses are optional for tuples in unambiguous contexts.
+Python features sequence unpacking where multiple expressions, each evaluating to anything that can be assigned (to a variable, writable property, etc.) are associated in an identical manner to that forming tuple literals—and, as a whole, are put on the left-hand side of the equal sign in an assignment statement. The statement expects an iterable object on the right-hand side of the equal sign that produces the same number of values as the provided writable expressions; when iterated through them, it assigns each of the produced values to the corresponding expression on the left.
+Python has a &amp;ldquo;string format&amp;rdquo; operator % that functions analogously to printf format strings in C—e.g. &amp;ldquo;spam=%s eggs=%d&amp;rdquo; % (&amp;ldquo;blah&amp;rdquo;, 2) evaluates to &amp;ldquo;spam=blah eggs=2&amp;rdquo;. In Python 2.6+ and 3+, this was supplemented by the format() method of the str class, e.g. &amp;ldquo;spam={0} eggs={1}&amp;quot;.format(&amp;ldquo;blah&amp;rdquo;, 2). Python 3.6 added &amp;ldquo;f-strings&amp;rdquo;: spam = &amp;ldquo;blah&amp;rdquo;; eggs = 2; f&amp;rsquo;spam={spam} eggs={eggs}&amp;rsquo;.
+Strings in Python can be concatenated by &amp;ldquo;adding&amp;rdquo; them (with the same operator as for adding integers and floats), e.g. &amp;ldquo;spam&amp;rdquo; + &amp;ldquo;eggs&amp;rdquo; returns &amp;ldquo;spameggs&amp;rdquo;. If strings contain numbers, they are added as strings rather than integers, e.g. &amp;ldquo;2&amp;rdquo; + &amp;ldquo;2&amp;rdquo; returns &amp;ldquo;22&amp;rdquo;.
+Python has various string literals:
+Delimited by single or double quote marks. Unlike in Unix shells, Perl, and Perl-influenced languages, single and double quote marks function identically. Both use the backslash () as an escape character. String interpolation became available in Python 3.6 as &amp;ldquo;formatted string literals&amp;rdquo;.
+Triple-quoted (beginning and ending with three single or double quote marks), which may span multiple lines and function like here documents in shells, Perl, and Ruby.
+Raw string varieties, denoted by prefixing the string literal with r. Escape sequences are not interpreted; hence raw strings are useful where literal backslashes are common, such as regular expressions and Windows-style paths. (Compare &amp;ldquo;@-quoting&amp;rdquo; in C#.)
+Python has array index and array slicing expressions in lists, denoted as a[key], a[start:stop] or a[start:stop:step]. Indexes are zero-based, and negative indexes are relative to the end. Slices take elements from the start index up to, but not including, the stop index. The third slice parameter, called step or stride, allows elements to be skipped and reversed. Slice indexes may be omitted—for example, a[:] returns a copy of the entire list. Each element of a slice is a shallow copy.
+In Python, a distinction between expressions and statements is rigidly enforced, in contrast to languages such as Common Lisp, Scheme, or Ruby. This leads to duplicating some functionality. For example:&lt;/p&gt;
+&lt;p&gt;List comprehensions vs. for-loops
+Conditional expressions vs. if blocks
+The eval() vs. exec() built-in functions (in Python 2, exec is a statement); the former is for expressions, the latter is for statements
+Statements cannot be a part of an expression—so list and other comprehensions or lambda expressions, all being expressions, cannot contain statements. A particular case is that an assignment statement such as a = 1 cannot form part of the conditional expression of a conditional statement. This has the advantage of avoiding a classic C error of mistaking an assignment operator = for an equality operator == in conditions: if (c = 1) { &amp;hellip; } is syntactically valid (but probably unintended) C code, but if c = 1: &amp;hellip; causes a syntax error in Python.&lt;/p&gt;
+&lt;h3 id=&#34;methods&#34;&gt;Methods&lt;/h3&gt;
+&lt;p&gt;Methods on objects are functions attached to the object&amp;rsquo;s class; the syntax instance.method(argument) is, for normal methods and functions, syntactic sugar for Class.method(instance, argument). Python methods have an explicit self parameter to access instance data, in contrast to the implicit self (or this) in some other object-oriented programming languages (e.g., C++, Java, Objective-C, Ruby). Python also provides methods, often called dunder methods (due to their names beginning and ending with double-underscores), to allow user-defined classes to modify how they are handled by native operations including length, comparison, in arithmetic operations and type conversion.&lt;/p&gt;
+&lt;h3 id=&#34;typing&#34;&gt;Typing&lt;/h3&gt;
+&lt;p&gt;Python uses duck typing and has typed objects but untyped variable names. Type constraints are not checked at compile time; rather, operations on an object may fail, signifying that it is not of a suitable type. Despite being dynamically-typed, Python is strongly-typed, forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting to make sense of them.&lt;/p&gt;
+&lt;p&gt;Python allows programmers to define their own types using classes, most often used for object-oriented programming. New instances of classes are constructed by calling the class (for example, SpamClass() or EggsClass()), and the classes are instances of the metaclass type (itself an instance of itself), allowing metaprogramming and reflection.&lt;/p&gt;
+&lt;p&gt;Before version 3.0, Python had two kinds of classes (both using the same syntax): old-style and new-style, current Python versions only support the semantics new style.&lt;/p&gt;
+&lt;p&gt;The long-term plan is to support gradual typing. Python&amp;rsquo;s syntax allows specifying static types, but they are not checked in the default implementation, CPython. An experimental optional static type-checker, mypy, supports compile-time type checking.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Last Week</title>
+      <link>https://example.com/post/last-week/</link>
+      <pubDate>Sat, 28 May 2022 13:01:53 +0300</pubDate>
+      <guid>https://example.com/post/last-week/</guid>
+      <description>&lt;h1 id=&#34;my-last-week&#34;&gt;My last week&lt;/h1&gt;
+&lt;h2 id=&#34;how-i-spend-my-last-week&#34;&gt;How I spend my last week&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;On the last week I went to my hometown and spend full week there.&lt;/li&gt;
+&lt;li&gt;I watched some films and reed some books.&lt;/li&gt;
+&lt;li&gt;I went to dacha and made important thinks there.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;my-review-of-the-week&#34;&gt;My review of the week&lt;/h2&gt;
+&lt;p&gt;I think it was a good rest after productive week.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Good presentation</title>
@@ -233,23 +354,6 @@ These criteria eliminated every version-control system in use at the time, so im
 &lt;p&gt;On 17 December 2014, an exploit was found affecting the Windows and macOS versions of the Git client. An attacker could perform arbitrary code execution on a target computer with Git installed by creating a malicious Git tree (directory) named .git (a directory in Git repositories that stores all the data of the repository) in a different case (such as .GIT or .Git, needed because Git does not allow the all-lowercase version of .git to be created manually) with malicious files in the .git/hooks subdirectory (a folder with executable files that Git runs) on a repository that the attacker made or on a repository that the attacker can modify. If a Windows or Mac user pulls (downloads) a version of the repository with the malicious directory, then switches to that directory, the .git directory will be overwritten (due to the case-insensitive trait of the Windows and Mac filesystems) and the malicious executable files in .git/hooks may be run, which results in the attacker&amp;rsquo;s commands being executed. An attacker could also modify the .git/config configuration file, which allows the attacker to create malicious Git aliases (aliases for Git commands or external commands) or modify extant aliases to execute malicious commands when run. The vulnerability was patched in version 2.2.1 of Git, released on 17 December 2014, and announced the next day.&lt;/p&gt;
 &lt;p&gt;Git version 2.6.1, released on 29 September 2015, contained a patch for a security vulnerability (CVE-2015-7545) that allowed arbitrary code execution. The vulnerability was exploitable if an attacker could convince a victim to clone a specific URL, as the arbitrary commands were embedded in the URL itself. An attacker could use the exploit via a man-in-the-middle attack if the connection was unencrypted, as they could redirect the user to a URL of their choice. Recursive clones were also vulnerable, since they allowed the controller of a repository to specify arbitrary URLs via the gitmodules file.&lt;/p&gt;
 &lt;p&gt;Git uses SHA-1 hashes internally. Linus Torvalds has responded that the hash was mostly to guard against accidental corruption, and the security a cryptographically secure hash gives was just an accidental side effect, with the main security being signing elsewhere. Since a demonstration of the SHAttered attack against git in 2017, git was modified to use a SHA-1 variant resistant to this attack. A plan for hash function transition is being written since February 2020.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Last Week</title>
-      <link>https://example.com/post/last-week/</link>
-      <pubDate>Fri, 06 May 2022 18:21:22 +0300</pubDate>
-      <guid>https://example.com/post/last-week/</guid>
-      <description>&lt;h1 id=&#34;my-last-week&#34;&gt;My last week&lt;/h1&gt;
-&lt;h2 id=&#34;how-i-spend-my-last-week&#34;&gt;How I spend my last week&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;The first and I think the most important that I made a lot of laboratory works&lt;/li&gt;
-&lt;li&gt;Thanks to the implementation of point 1 I got a lot of free time and I could to saw some films. One of them was &amp;ldquo;Inception&amp;rdquo; with Leonardo DiCaprio.&lt;/li&gt;
-&lt;li&gt;I spend some time to read the books and pass the course in internet.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;my-review-of-the-week&#34;&gt;My review of the week&lt;/h2&gt;
-&lt;p&gt;I think the week has been quite productive. I did all homework not only for this week, but also for the next week. I got a lot of free time and spend it with benefit for me. I also didn&amp;rsquo;t forget about rest and I watched some films and read some books.&lt;/p&gt;
 </description>
     </item>
     
