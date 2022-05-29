@@ -1,0 +1,1274 @@
+<!DOCTYPE html><html lang="ru-ru" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Александр И. Гарут" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="В этом посте я расскажу вам о Python." />
+
+  
+    <link rel="alternate" hreflang="en" href="https://garutalek.github.io/post/python/" />
+  
+  <link rel="alternate" hreflang="ru-ru" href="https://garutalek.github.io/ru/post/python/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.1052fab8b7700a3dc49ee23683097d66.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/ru/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://garutalek.github.io/ru/post/python/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@wowchemy" />
+    <meta property="twitter:creator" content="@wowchemy" />
+  
+  <meta property="og:site_name" content="Александр И. Гарут" />
+  <meta property="og:url" content="https://garutalek.github.io/ru/post/python/" />
+  <meta property="og:title" content="Python | Александр И. Гарут" />
+  <meta property="og:description" content="В этом посте я расскажу вам о Python." /><meta property="og:image" content="https://garutalek.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://garutalek.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="ru-ru" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-05-28T13:05:31&#43;03:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-05-28T13:05:31&#43;03:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://garutalek.github.io/ru/post/python/"
+  },
+  "headline": "Python",
+  
+  "datePublished": "2022-05-28T13:05:31+03:00",
+  "dateModified": "2022-05-28T13:05:31+03:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Garut A. I."
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Александр И. Гарут",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://garutalek.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "В этом посте я расскажу вам о Python."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Python | Александр И. Гарут</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="c3cd2b2a71cf4f27d081c98be809ce13" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Поиск</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Поиск ..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Поиск ...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/ru/">Александр И. Гарут</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Переключить навигацию">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/ru/">Александр И. Гарут</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#about"><span>Обо мне</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#posts"><span>Посты</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#projects"><span>Проекты</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#featured"><span>Публикации</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#contact"><span>Контакты</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Поиск"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link " data-toggle="dropdown"
+             aria-haspopup="true" aria-label="Languages">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>Русский</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://garutalek.github.io/post/python/">
+              <span>English</span>
+            </a>
+            
+          </div>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Python</h1>
+
+  
+  <p class="page-subtitle">Язык программирования Python</p>
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    мая 28, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    10 мин. для прочтения
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Python_logo" srcset="
+               /ru/post/python/python-logo_hu267aa9799be385c9028f3c2885a6e8cd_52166_2cc204ac43461457472bf002ac8dd670.webp 400w,
+               /ru/post/python/python-logo_hu267aa9799be385c9028f3c2885a6e8cd_52166_0aef25628f66a1d5cfdc9b7657dae6ab.webp 760w,
+               /ru/post/python/python-logo_hu267aa9799be385c9028f3c2885a6e8cd_52166_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/ru/post/python/python-logo_hu267aa9799be385c9028f3c2885a6e8cd_52166_2cc204ac43461457472bf002ac8dd670.webp"
+               width="760"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h1 id="python">Python</h1>
+<h2 id="базовая-информация">Базовая информация</h2>
+<p>Python — это высокоуровневый интерпретируемый язык программирования общего назначения. Философия его дизайна делает упор на удобочитаемость кода с использованием значительных отступов.</p>
+<p>Python имеет динамическую типизацию и сборку мусора. Он поддерживает несколько парадигм программирования, включая структурированное (особенно процедурное), объектно-ориентированное и функциональное программирование. Его часто называют языком «с батарейками» из-за обширной стандартной библиотеки.</p>
+<p>Гвидо ван Россум начал работать над Python в конце 1980-х годов как преемник языка программирования ABC и впервые выпустил его в 1991 году как Python 0.9.0. Python 2.0 был выпущен в 2000 году и представил новые функции, такие как понимание списков, сборка мусора с обнаружением циклов, подсчет ссылок и поддержка Unicode. Python 3.0, выпущенный в 2008 году, был основной версией, не имеющей полной обратной совместимости с более ранними версиями. Python 2 был прекращен с версии 2.7.18 в 2020 году.</p>
+<h2 id="история">История</h2>
+<p>Python был задуман в конце 1980-х Гвидо ван Россумом из Centrum Wiskunde &amp; Informatica (CWI) в Нидерландах как преемник языка программирования ABC, который был вдохновлен SETL, способным обрабатывать исключения и взаимодействовать с операционной системой Amoeba. Его реализация началась в декабре 1989 года. Ван Россум брал на себя исключительную ответственность за проект в качестве ведущего разработчика до 12 июля 2018 года, когда он объявил о своем «постоянном отпуске» от своих обязанностей «доброжелательного диктатора на всю жизнь» Python. сообщество, дарованное ему, чтобы отразить его долгосрочную приверженность в качестве главного лица, принимающего решения по проекту. В январе 2019 года активные разработчики ядра Python избрали Руководящий совет из пяти человек для руководства проектом.</p>
+<p>Python 2.0 был выпущен 16 октября 2000 г. и содержал множество важных новых функций. Python 3.0, выпущенный 3 декабря 2008 г., многие из его основных функций перенесены в Python 2.6.x и 2.7.x. Релизы Python 3 включают утилиту 2to3, которая автоматизирует перевод кода Python 2 в Python 3.</p>
+<p>Окончание срока службы Python 2.7 первоначально было назначено на 2015 год, а затем было перенесено на 2020 год из-за опасений, что большой объем существующего кода нельзя будет легко перенести на Python 3. Никаких дополнительных исправлений безопасности или других улучшений выпускаться не будет. для этого. С окончанием срока службы Python 2 поддерживались только Python 3.6.x и более поздние версии. Позже поддержка 3.6 также была прекращена. В 2021 году Python 3.9.2 и 3.8.8 были ускорены, поскольку все версии Python (включая 2.7) имели проблемы с безопасностью, приводящие к возможному удаленному выполнению кода и отравлению веб-кэша.</p>
+<p>В 2022 году Python 3.10.4 и 3.9.12 были ускорены, как и более старые выпуски, включая 3.8.13 и 3.7.13, из-за множества проблем с безопасностью в 2022 году. Python 3.9.13 — это последняя версия 3.9, а с этого момента — 3.9. (и старше; 3.8 и 3.7) будут получать только обновления безопасности.</p>
+<h2 id="синтаксис-и-семантика">Синтаксис и семантика</h2>
+<p>Основная статья: синтаксис и семантика Python
+Python должен быть легко читаемым языком. Его форматирование визуально незагромождено и часто использует английские ключевые слова там, где другие языки используют знаки препинания. В отличие от многих других языков, он не использует фигурные скобки для разделения блоков, а точки с запятой после операторов разрешены, но редко используются. В нем меньше синтаксических исключений и особых случаев, чем в C или Pascal.</p>
+<h3 id="отступ">Отступ</h3>
+<p>Основная статья: синтаксис и семантика Python § Отступы
+Python использует пробельные отступы, а не фигурные скобки или ключевые слова, для разделения блоков. Увеличение отступа происходит после определенных утверждений; уменьшение отступа означает конец текущего блока.[81] Таким образом, визуальная структура программы точно отражает ее семантическую структуру. Эту особенность иногда называют правилом вне игры. Некоторые другие языки используют отступ таким образом; но в большинстве случаев отступ не имеет семантического значения. Рекомендуемый размер отступа — четыре пробела.</p>
+<h3 id="операторы-и-поток-управления">Операторы и поток управления</h3>
+<p>Заявления Python включают:</p>
+<p>Оператор присваивания с использованием одного знака равенства =
+Оператор if, который условно выполняет блок кода вместе с else и elif (сокращение от else-if).
+Оператор for, который выполняет итерацию по итерируемому объекту, записывая каждый элемент в локальную переменную для использования прикрепленным блоком.
+Оператор while, который выполняет блок кода до тех пор, пока его условие истинно.
+Оператор try, который позволяет перехватывать и обрабатывать исключения, возникающие в прикрепленном к нему блоке кода, с помощью предложений exclude (или новый синтаксис, exclude* в Python 3.11 для групп исключений); это также гарантирует, что код очистки в блоке finally всегда выполняется независимо от того, как блок выходит.
+Оператор повышения, используемый для возбуждения указанного исключения или повторного возбуждения перехваченного исключения.
+Оператор класса, который выполняет блок кода и прикрепляет свое локальное пространство имен к классу для использования в объектно-ориентированном программировании.
+Оператор def, определяющий функцию или метод.
+Оператор with, который заключает в себе блок кода в менеджере контекста (например, получение блокировки перед ее запуском, а затем снятие блокировки или открытие и закрытие файла), разрешает получение ресурсов при инициализации (RAII) — подобное поведение и замена распространенной идиомы try/finally
+Оператор break, который выходит из цикла
+Оператор continue, который пропускает текущую итерацию и продолжает следующую.
+Оператор del, который удаляет переменную — удаляет ссылку из имени на значение и выдает ошибку, если на переменную ссылаются до ее переопределения.
+Оператор pass, выступающий в роли NOP, синтаксически необходим для создания пустого блока кода.
+Оператор assert, используемый при отладке для проверки условий, которые должны применяться.
+Оператор yield, который возвращает значение из функции-генератора (а также оператора); используется для реализации сопрограмм
+Оператор return, используемый для возврата значения из функции.
+Оператор импорта, используемый для импорта модулей, функции или переменные которых можно использовать в текущей программе.
+Оператор присваивания (=) связывает имя как ссылку на отдельный динамически выделяемый объект. Переменные впоследствии могут быть в любой момент связаны с любым объектом. В Python имя переменной является общим держателем ссылки без фиксированного типа данных; однако он всегда ссылается на некоторый объект с типом. Это называется динамической типизацией — в отличие от языков со статической типизацией, где каждая переменная может содержать значение только определенного типа.</p>
+<p>Python не поддерживает оптимизацию хвостовых вызовов или первоклассные продолжения, и, по словам ван Россума, никогда не будет. Однако лучшая поддержка функций, подобных сопрограммам, обеспечивается за счет расширения генераторов Python. До версии 2.5 генераторы были ленивыми итераторами; данные были переданы однонаправленно из генератора. Начиная с Python 2.5, можно передавать данные обратно в функцию-генератор; а начиная с версии 3.3 его можно передавать через несколько уровней стека.</p>
+<h3 id="выражения">Выражения</h3>
+<p>Некоторые выражения Python похожи на выражения в таких языках, как C и Java, а некоторые нет:</p>
+<p>Сложение, вычитание и умножение одинаковы, но поведение деления отличается. В Python существует два типа делений: деление на пол (или целочисленное деление) // и деление с плавающей запятой. Python также использует оператор ** для возведения в степень.
+Инфиксный оператор @. Он предназначен для использования такими библиотеками, как NumPy, для умножения матриц.
+Синтаксис :=, называемый «оператором моржа», был представлен в Python 3.8. Он присваивает значения переменным как часть более крупного выражения.
+В Python == сравнивает по значению, в отличие от Java, которая сравнивает числовые значения по значению и объекты по ссылке. Оператор is в Python может использоваться для сравнения идентификаторов объектов (сравнение по ссылке), а сравнения могут быть объединены в цепочку, например, a &lt;= b &lt;= c.
+Python использует и, или, и не как логические операторы, а не символические операторы &amp;&amp;, ||, ! на Яве и С.
+Python имеет тип выражения, называемый пониманием списка, а также более общее выражение, называемое генераторным выражением.
+Анонимные функции реализованы с помощью лямбда-выражений; однако в каждом теле может быть только одно выражение.
+Условные выражения записываются как x if c else y (порядок операндов отличается от оператора c ? x : y, общего для многих других языков).
+Python делает различие между списками и кортежами. Списки записываются как [1, 2, 3], являются изменяемыми и не могут использоваться в качестве ключей словарей (ключи словарей должны быть неизменяемыми в Python). Кортежи, записанные как (1, 2, 3), являются неизменяемыми и поэтому могут использоваться в качестве ключей словарей при условии, что все элементы кортежа неизменны. Оператор + можно использовать для объединения двух кортежей, что не изменяет их содержимое напрямую, а создает новый кортеж, содержащий элементы обоих. Таким образом, если переменная t изначально равна (1, 2, 3), выполнение t = t + (4, 5) сначала оценивает t + (4, 5), что дает (1, 2, 3, 4, 5) , который затем присваивается обратно t, тем самым эффективно «модифицируя содержимое» t, при этом соответствуя неизменной природе объектов кортежей. Скобки необязательны для кортежей в однозначном контексте.
+В Python реализована последовательная распаковка, при которой несколько выражений, каждое из которых оценивает что-либо, что может быть назначено (переменной, доступному для записи свойству и т. д.), связываются таким же образом, как формирующие литералы кортежа, и в целом располагаются слева. Сторона знака равенства в операторе присваивания. Оператор ожидает итерируемый объект справа от знака равенства, который производит то же количество значений, что и предоставленные записываемые выражения; при повторении по ним он присваивает каждое из полученных значений соответствующему выражению слева.
+В Python есть оператор «строкового формата» %, который функционирует аналогично строкам формата printf в C, например. &ldquo;spam=%s egg=%d&rdquo; % (&ldquo;blah&rdquo;, 2) оценивается как &ldquo;spam=blah egg=2&rdquo;. В Python 2.6+ и 3+ это было дополнено методом format() класса str, например. &ldquo;спам={0} яйца={1}&quot;.format(&ldquo;бла&rdquo;, 2). В Python 3.6 добавлены «f-строки»: spam = «blah»; яйца = 2; f&rsquo;spam={спам} яйца={яйца}&rsquo;.
+Строки в Python можно объединять, «добавляя» их (с тем же оператором, что и для добавления целых чисел и чисел с плавающей запятой), например. «спам» + «яйца» возвращает «спамеггсы». Если строки содержат числа, они добавляются как строки, а не целые числа, например. «2» + «2» возвращает «22».
+Python имеет различные строковые литералы:
+Разделяется одинарными или двойными кавычками. В отличие от оболочек Unix, Perl и языков, на которые повлиял Perl, одинарные и двойные кавычки работают одинаково. Оба используют обратную косую черту () в качестве escape-символа. Интерполяция строк стала доступна в Python 3.6 как «форматированные строковые литералы».
+Тройные кавычки (начинающиеся и заканчивающиеся тремя одинарными или двойными кавычками), которые могут охватывать несколько строк и функционировать, как здесь, документы в оболочках, Perl и Ruby.
+Варианты необработанных строк, обозначаемые префиксом строкового литерала с помощью r. Escape-последовательности не интерпретируются; следовательно, необработанные строки полезны там, где распространены буквальные обратные косые черты, такие как регулярные выражения и пути в стиле Windows. (Сравните &ldquo;@-цитирование&rdquo; в C#.)
+Python имеет индексы массивов и выражения нарезки массивов в списках, обозначаемые как [ключ], [начало: стоп] или [начало: стоп: шаг]. Индексы отсчитываются от нуля, а отрицательные индексы относятся к концу. Срезы берут элементы от начального индекса до конечного индекса, но не включают его. Третий параметр среза, называемый шагом или шагом, позволяет пропускать элементы и менять их местами. Индексы срезов могут быть опущены, например, a[:] возвращает копию всего списка. Каждый элемент среза является мелкой копией.
+В Python строго проводится различие между выражениями и операторами, в отличие от таких языков, как Common Lisp, Scheme или Ruby. Это приводит к дублированию некоторых функций. Например:</p>
+<p>Понимание списков против циклов for
+Условные выражения и блоки if
+Встроенные функции eval() и exec() (в Python 2 exec — это инструкция); первый для выражений, второй для утверждений
+Операторы не могут быть частью выражения, поэтому списки и другие включения или лямбда-выражения, являющиеся выражениями, не могут содержать операторы. Частным случаем является то, что оператор присваивания, такой как a = 1, не может быть частью условного выражения условного оператора. Это имеет то преимущество, что позволяет избежать классической ошибки C, заключающейся в ошибочном принятии оператора присваивания = за оператор равенства == в условиях: if (c = 1) { &hellip; } синтаксически допустимый (но, вероятно, непреднамеренный) код C, = 1: &hellip; вызывает синтаксическую ошибку в Python.</p>
+<h3 id="методы">Методы</h3>
+<p>Методы объектов — это функции, присоединенные к классу объекта; синтаксис instance.method(аргумент) для обычных методов и функций является синтаксическим сахаром для Class.method(экземпляр, аргумент). Методы Python имеют явный параметр self для доступа к данным экземпляра, в отличие от неявного параметра self (или this) в некоторых других объектно-ориентированных языках программирования (например, C++, Java, Objective-C, Ruby). Python также предоставляет методы, часто называемые методами dunder (из-за того, что их имена начинаются и заканчиваются двойным подчеркиванием), позволяющие определяемым пользователем классам изменять способ их обработки собственными операциями, включая длину, сравнение, арифметические операции и преобразование типов.</p>
+<h3 id="ввод">Ввод</h3>
+<p>Python использует утиную типизацию и имеет типизированные объекты, но нетипизированные имена переменных. Ограничения типа не проверяются во время компиляции; скорее, операции над объектом могут завершиться неудачно, что означает, что он не относится к подходящему типу. Несмотря на динамическую типизацию, Python является строго типизированным, запрещая операции, которые не определены четко (например, добавление числа в строку), вместо того, чтобы молча пытаться понять их смысл.</p>
+<p>Python позволяет программистам определять свои собственные типы с помощью классов, которые чаще всего используются для объектно-ориентированного программирования. Новые экземпляры классов создаются путем вызова класса (например, SpamClass() или EggsClass()), а классы являются экземплярами типа метакласса (сам экземпляр самого себя), что позволяет осуществлять метапрограммирование и отражение.</p>
+<p>До версии 3.0 в Python было два типа классов (оба использовали один и тот же синтаксис): старый стиль и новый стиль, текущие версии Python поддерживают только семантику нового стиля.</p>
+<p>Долгосрочный план заключается в поддержке постепенного набора текста. Синтаксис Python позволяет указывать статические типы, но они не проверяются в реализации по умолчанию, CPython. Экспериментальная необязательная статическая проверка типов mypy поддерживает проверку типов во время компиляции.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://garutalek.github.io/ru/post/python/&amp;text=Python" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://garutalek.github.io/ru/post/python/&amp;t=Python" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Python&amp;body=https://garutalek.github.io/ru/post/python/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://garutalek.github.io/ru/post/python/&amp;title=Python" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Python%20https://garutalek.github.io/ru/post/python/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://garutalek.github.io/ru/post/python/&amp;title=Python" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.fab8b449b814cc9f95b22fcf2e45f05b.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/ru/js/wowchemy.min.2dc4ec27206b78f9d05ad86312c44710.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Процитировать</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Копия
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Скачать
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>
